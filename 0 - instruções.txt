@@ -1,14 +1,102 @@
-Caso queira utilizar o Boodstrap tem duas formas de utilizar ele: a primeira é utilizar o arquivo por uma chamada de link e script, puxando os componentes de forma online. A outra é baixando o repositório e usando os componentes offline e ai chamando eles. 
+Todas essas infos estão no site do boodstrap: https://getbootstrap.com/docs/5.3/getting-started/download/
+
+Caso queira utilizar o Boodstrap tem duas formas de utilizar ele: a primeira é utilizar o arquivo por uma chamada de link e script, puxando os componentes de forma online. A segunda é baixando o repositório e usando os componentes offline e ai chamando eles e a terceira é baixando pelo gerenciador de pacotes npm para integrar no framework ou projeto utilizado
 
 O primeiro jeito:
 
 
+Puxar o link online de css e o de funcionalidades no código, caso esteja utilizando o puro. Os dois estão a baixo: 
 
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js" integrity="sha384-RuyvpeZCxMJCqVUGFI0Do1mQrods/hhxYlcVfGPOfQtPJh0JCw12tUAZ/Mv10S7D" crossorigin="anonymous"></script>
 
+usar no código como no exemplo a baixo:
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+  </body>
+</html>
 
 
 O segundo Jeito:
 
+Baixar os arquivos fontes. neles vem os css e os js para a organização do projeto. Os arquivos css: 
 
+bootstrap/
+├── css/
+│   ├── bootstrap-grid.css
+│   ├── bootstrap-grid.css.map
+│   ├── bootstrap-grid.min.css
+│   ├── bootstrap-grid.min.css.map
+│   ├── bootstrap-grid.rtl.css
+│   ├── bootstrap-grid.rtl.css.map
+│   ├── bootstrap-grid.rtl.min.css
+│   ├── bootstrap-grid.rtl.min.css.map
+│   ├── bootstrap-reboot.css
+│   ├── bootstrap-reboot.css.map
+│   ├── bootstrap-reboot.min.css
+│   ├── bootstrap-reboot.min.css.map
+│   ├── bootstrap-reboot.rtl.css
+│   ├── bootstrap-reboot.rtl.css.map
+│   ├── bootstrap-reboot.rtl.min.css
+│   ├── bootstrap-reboot.rtl.min.css.map
+│   ├── bootstrap-utilities.css
+│   ├── bootstrap-utilities.css.map
+│   ├── bootstrap-utilities.min.css
+│   ├── bootstrap-utilities.min.css.map
+│   ├── bootstrap-utilities.rtl.css
+│   ├── bootstrap-utilities.rtl.css.map
+│   ├── bootstrap-utilities.rtl.min.css
+│   ├── bootstrap-utilities.rtl.min.css.map
+│   ├── bootstrap.css
+│   ├── bootstrap.css.map
+│   ├── bootstrap.min.css
+│   ├── bootstrap.min.css.map
+│   ├── bootstrap.rtl.css
+│   ├── bootstrap.rtl.css.map
+│   ├── bootstrap.rtl.min.css
+│   └── bootstrap.rtl.min.css.map
+└── js/
+    ├── bootstrap.bundle.js
+    ├── bootstrap.bundle.js.map
+    ├── bootstrap.bundle.min.js
+    ├── bootstrap.bundle.min.js.map
+    ├── bootstrap.esm.js
+    ├── bootstrap.esm.js.map
+    ├── bootstrap.esm.min.js
+    ├── bootstrap.esm.min.js.map
+    ├── bootstrap.js
+    ├── bootstrap.js.map
+    ├── bootstrap.min.js
+    └── bootstrap.min.js.map
+
+e a divisão de diretrizes do projeto: 
+
+bootstrap/
+├── dist/
+│   ├── css/
+│   └── js/
+├── site/
+│   └──content/
+│      └── docs/
+│          └── 5.3/
+│              └── examples/
+├── js/
+└── scss/
+
+Link para o download dos arquivos: https://github.com/twbs/bootstrap/releases/download/v5.3.6/bootstrap-5.3.6-dist.zip
+
+A terceira é baixar utilizando o npm para baixar para o projeto:
+
+npm install bootstrap@5.3.6
 
 
