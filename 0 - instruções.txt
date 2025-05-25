@@ -1,0 +1,14 @@
+Caso queira utilizar o Boodstrap tem duas formas de utilizar ele: a primeira é utilizar o arquivo por uma chamada de link e script, puxando os componentes de forma online. A outra é baixando o repositório e usando os componentes offline e ai chamando eles. 
+
+O primeiro jeito:
+
+
+
+
+
+
+O segundo Jeito:
+
+
+
+
